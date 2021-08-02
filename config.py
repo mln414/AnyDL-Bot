@@ -12,4 +12,4 @@ class Config(object):
 
     VIDEO_THUMBNAIL = os.environ.get("VIDEO_THUMBNAIL", "No")
 
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", forcesub414)
+    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "forcesub414")
